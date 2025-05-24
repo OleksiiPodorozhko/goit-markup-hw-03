@@ -266,6 +266,21 @@ h1, h2, h3, h4, h5, h6, p {
     text-transform: capitalize;
 }
 
+.our-portfolio-list {
+    display: flex;
+    gap: 48px 24px;
+    flex-wrap: wrap;
+}
+
+.portfolio-info {
+    padding-top: 32px;
+    padding-bottom: 31px;
+    padding-left: 15px;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+}
+
 .our-portfolio-text {
     font-weight: 400;
     font-size: 16px;
@@ -302,6 +317,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .footer-logo {
+    display: block;
+    margin-bottom: 16px;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -316,6 +333,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .footer-text {
+    width: 264px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
