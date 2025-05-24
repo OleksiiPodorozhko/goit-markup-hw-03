@@ -166,6 +166,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .our-team-title {
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -175,8 +176,19 @@ h1, h2, h3, h4, h5, h6, p {
     text-transform: capitalize;
 }
 
+.our-team-list {
+    display: flex;
+    gap: 24px
+}
+
 .team-member-card {
     background-color: #ffffff;
+    width: calc((100% - 72px)/4);
+    border-radius: 0 0 4px 4px;
+}
+
+.team-member-info {
+    padding: 32px 16px;
 }
 
 .team-member-title {
