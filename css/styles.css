@@ -40,14 +40,21 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .container {
-    max-width: 798px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 /*#region Header*/
+.header {
+    padding: 24px 0;
+}
+
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -96,10 +103,13 @@ h1, h2, h3, h4, h5, h6, p {
 /*#region Hero*/
 .hero {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title {
     font-weight: 700;
+    margin-bottom: 48px;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -107,7 +117,17 @@ h1, h2, h3, h4, h5, h6, p {
     color: #FFFFFF;
 }
 
+.hero .container {
+    padding-left: 316px;
+    padding-right: 316px;
+}
+
 .hero-btn {
+    display: block;
+    margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
     background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -124,6 +144,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 /*#region Features*/
 .feature-title {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -159,6 +180,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .team-member-title {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -178,6 +200,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 /*#region Our Portfolio*/
 .our-portfolio-title {
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -199,6 +222,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .portfolio-card-title {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -217,6 +241,8 @@ h1, h2, h3, h4, h5, h6, p {
 /*#region Footer*/
 .footer {
     background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-logo {
